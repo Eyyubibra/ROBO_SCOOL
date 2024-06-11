@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+}
+
+header {
+  background-color: #141024;
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+    background-color: #141024;
+    padding-bottom: 10%;
+}
+
+/* .main {
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* .main-main {
+    margin-left: 10%;
+    margin-top: 5%;
+} */
+
+.main-image {
+    margin-left: 5%;
+}
+
+.header-logo {
+    width: 11%;
+    margin-top: -2.5%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #17132a;
+    padding-right: 120%;
+    padding-left: 120%;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Jost";
+    white-space: nowrap;
+    border: none;
+    margin-top: 15%;
+    margin-left: -130%;
+    border-radius: 10px;
+    position: relative;
+}
+  
+.dropdown {
+    position: relative;
+}
+  
+.dropdown-content {
+    display: none;
+    margin-left: -17%;
+}
+
+.dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    margin: 7%;
+    white-space: nowrap;
+    font-family: "Jost";
+}
+
+.dropdown-content a:hover {
+    color: #53409d;
+    transition: 0.8s;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: flex;
+    transition: 0.7s;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #2c234f;
+    transition: 0.7s;
+}
+
+.phone-number {
+    color: white;
+    font-family: "Jost";
+    margin-top: 1%;
+}
+  
+.main-title {
+    color: white;
+    font-family: "Jost";
+    font-size: 40px;
+    margin-left: 11.5%;
+    margin-top: 5%;
+}
+
+.main-info {
+    color: white;
+    font-family: "Jost";
+    margin-left: 11.5%;
+    font-size: 20px;
+    white-space: nowrap;    
+}
+
+.main-button {
+    margin-top: 5%; 
+}
+
+.main-button a {
+    color: white;
+    font-family: "Jost";
+    padding: 30px;
+    background-color: #D52027;
+    margin-left: 11.5%; 
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.main-button a:hover {
+    background-color: rgb(120, 4, 4);
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+}
+
+.robo-info {
+    margin-left: 11.5%;
+    font-family: "Jost";
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.carts {
+    display: flex;
+    margin-left: 11.5%;
+}
+
+.cart-1-name {
+    font-family: "Jost";
+    font-weight: 700;
+    font-size: 35px;
+    color: red;
+}
+
+.cart-1 p {
+    font-family: "Jost";
+}
+
+.cart-2 {
+    margin-left: 7%;
+}
+
+.cart-2-name {
+    font-family: "Jost";
+    font-weight: 700;
+    font-size: 35px;
+    color: red;
+}
+
+.cart-2 p {
+    font-family: "Jost";
+}
+
+.cart-3 {
+    margin-left: 7%;
+}
+
+.cart-3-name {
+    font-family: "Jost";
+    font-weight: 700;
+    font-size: 35px;
+    color: red;
+}
+
+.cart-3 p {
+    font-family: "Jost";
+}
+
+.cart-4 {
+    margin-left: 7%;
+}
+
+.cart-4-name {
+    font-family: "Jost";
+    font-weight: 700;
+    font-size: 35px;
+    color: red;
+}
+
+.cart-4 p {
+    font-family: "Jost";}
+
+.after-0 {
+    background-color:  #F9F9F9;
+    margin-top: 5%;
+    padding: 2%;
+}
+
+.after-1 {
+    display: flex;
+    margin-left: 11.5%;
+}
+
+.after-name {
+    font-family: "Jost";
+    font-size: 25px;
+    margin-left: 11%;
+    font-weight: 700;
+    margin-top: 2%;
+}
+
+.after-main-one {
+    font-family: "Jost";
+    font-weight: 700;
+    font-size: 20px;    
+}
+
+.after-info-one {
+    font-family: "Jost";
+}
+
+.after-two {
+    margin-left: 10%;
+}
+
+.after-main-two {
+    font-family: "Jost";
+    font-weight: 700;
+    font-size: 20px;    
+}
+
+.after-info-two {
+    font-family: "Jost";
+}
+
+.after-three {
+    margin-left: 10%;
+}
+
+.after-main-three {
+    font-family: "Jost";
+    font-weight: 700;
+    font-size: 20px;    
+}
+
+.after-info-three {
+    font-family: "Jost";
+}
+
+.choose-p {
+    font-family: "Jost";
+    font-size: 25px;
+    margin-left: 11.5%;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+.choose-cart {
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.cart-pro {
+    border: 1px solid #14102433;
+    border-radius: 10px;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.cart-pro:hover {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #141024;
+    color: #fff;
+    transition: all 0.7s;
+}
+
+.cart-pro-name {
+    font-family: "Jost";
+    font-weight: 700;
+    font-size: 20px; 
+    text-align: center;
+}
+
+.cart-pro-cost {
+    font-family: "Jost";
+    font-weight: 700;
+    font-size: 23px; 
+    text-align: center;
+}
+
+.cart-pro-info {
+    font-family: "Jost";
+    text-align: center;
+}
+
+.cart-pro-button {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.cart-pro-button a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    background-color: #D52027;
+    font-family: "Jost";
+    border-radius: 8%;
+}
+
+.cart-robo {
+    border: 1px solid #14102433;
+    border-radius: 10px;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.cart-robo:hover {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    background-color: #141024;
+    color: #fff;
+    transition: all 0.7s;
+}
+
+.cart-robo-name {
+    font-family: "Jost";
+    font-weight: 700;
+    font-size: 20px; 
+    text-align: center;
+}
+
+.cart-robo-cost {
+    font-family: "Jost";
+    font-weight: 700;
+    font-size: 23px; 
+    text-align: center;
+}
+
+.cart-robo-info {
+    font-family: "Jost";
+    text-align: center;
+}
+
+.cart-robo-button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cart-robo-button a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    background-color: #D52027;
+    font-family: "Jost";
+    border-radius: 8%;
+}
+
+.cart-prog {
+    border: 1px solid #14102433;
+    border-radius: 10px;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.cart-prog:hover {
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #141024;
+    color: #fff;
+    transition: all 0.7s;
+}
+
+
+.cart-prog-name {
+    font-family: "Jost";
+    font-weight: 700;
+    font-size: 20px; 
+    text-align: center;
+}
+
+.cart-prog-cost {
+    font-family: "Jost";
+    font-weight: 700;
+    font-size: 23px; 
+    text-align: center;
+}
+
+.cart-prog-info {
+    font-family: "Jost";
+    text-align: center;
+}
+
+.cart-prog-button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cart-prog-button a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    background-color: #D52027;
+    font-family: "Jost";
+    border-radius: 8%;
+}
+
+.reg {
+    background-color: #D52027;
+    display: flex;
+    padding: 4%;
+    justify-content: space-around;
+}
+
+.reg-main {
+    font-family: "Jost";
+    font-size: 30px;
+}
+
+.reg-info {
+    font-family: "Jost";
+    font-size: 20px;    
+}
+
+.input input {
+    display: block;
+    margin: 5;
+    border: 2px;
+}
+
+.input-1 {
+    margin-top: 5%;
+    height: 20%;
+    width: 150%;
+    border-radius: 7px;
+}
+
+.input-1::placeholder {
+    font-family: "Jost";
+}
+
+.input-button {
+    margin-top: 10.5%;
+}
+
+.input-button-1 {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Jost";
+    padding: 1% 5% 1% 5%; 
+    background-color: #141024;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #090128;
+    padding: 2% 2% 0% 2%;
+    display: flex;
+    border-top: 15px solid #141024;
+}
+
+.header-logo-1 { 
+    margin-top: -12%;
+    width: 40%;
+}
+
+.footer-name {
+    font-family: "Jost";
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-date {
+    font-family: "Jost";
+    color: #fff;
+    font-size: 20px;
+}
+
+.links {
+    margin-left: 40%;
+}
+
+.links a {
+    margin: 0;
+    padding: 0;
+}
+
+.telegram {
+    width: 12%;
+    margin-left: 10%;
+}
+
+.instagram {
+    width: 15%;
+    margin-left: 10%;
+}
+
+.wk {
+    width: 15%;
+    margin-left: 10%;
+}
+
+.footer-polit {
+    white-space: nowrap;
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-polit a {
+    font-family: "Jost";
+    margin-left: 90%;
+}
